@@ -14,7 +14,7 @@ let SKINCOUNT = 2;
 let assetData = resources[`${ASSETS_URL}assets/assets.json`];
 
 let WEBSOCKET_SERVER = 'wss://5.139.156.134:9001/royale/ws';
-let DISCLAIMER_SCREEN_TIMEOUT = 5000;
+let DISCLAIMER_SCREEN_TIMEOUT = 100;
 
 (function () {
     for (i in assetData.properties) {
