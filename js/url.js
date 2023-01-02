@@ -13,7 +13,7 @@ let BLOCK_DATA = {};
 let SKINCOUNT = 2;
 let assetData = resources[`${ASSETS_URL}assets/assets.json`];
 
-let WEBSOCKET_SERVER = 'wss://5.139.156.134:9001/royale/ws';
+let WEBSOCKET_SERVER = 'wss://ip:9001/royale/ws';
 let DISCLAIMER_SCREEN_TIMEOUT = 100;
 
 (function () {
